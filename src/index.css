@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 90px;
-  height: 1200px;
+  height: 1500px;
 }
 
 header {
@@ -27,6 +27,12 @@ header {
 h1{
   font-family: 'Pinyon Script', cursive;
   font-size: 50px;
+}
+main{
+	padding-left: 5%;
+  	padding-right: 5%;
+  	padding-bottom: 5%;
+  	padding-top: 5%;
 }
 .center-div
 {

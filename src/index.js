@@ -2,14 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
+import Header from "./header"
 
 const App = () => {
     return (
-
-            <div> 
-
-                <h1>Welcome to Aubrey's page!</h1>
-            </div>
+                <Header/>
+        
     );
 }
 

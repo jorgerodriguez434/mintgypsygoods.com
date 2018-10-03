@@ -39,7 +39,17 @@ h1{
      width: 100px;
      height: 100px;
 }
+.content{
+  text-align: center;
+  background-color: white;
+  margin-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 50px;
 
+ }
+ .lorem-content{
+  padding: 30px 30px 30px 30px;
+ }
 
 
 /* Non-mobile */

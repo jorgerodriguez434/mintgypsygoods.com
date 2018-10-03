@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Header from "./components/header"
+import MainContent from './components/main-content';
 
 const App = () => {
     return (
+        <div>
                 <Header/>
-        
+                <MainContent/>
+        </div>
     );
 }
 

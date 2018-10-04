@@ -34,6 +34,21 @@ main{
   	padding-bottom: 5%;
   	padding-top: 5%;
 }
+button {
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 17px;
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	background-color: grey;
+	font-size: 17px;
+	height: 50px;
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
 .center-div
 {
      position: absolute;
@@ -51,12 +66,26 @@ main{
   margin-bottom: 25px;
   padding-top: 10px;
   padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 
  }
  .lorem-content{
   padding: 30px 30px 30px 30px;
  }
 
+ .add-border{
+   border: 2px solid black;
+ }
+ .float-left{
+   float: left;
+ }
+ .width-50{
+   width: 50%;
+ }
+ .pointer:hover {
+  cursor: pointer;
+}
 
 /* Non-mobile */
 

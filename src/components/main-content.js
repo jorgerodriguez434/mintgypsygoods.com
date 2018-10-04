@@ -18,8 +18,16 @@ export default class MainContent extends React.Component {
   }
 
   jewerly = () => {
+    window.scrollTo(0, 0)
       this.setState({
           display: "jewerly"
+      })
+  };
+
+  paintings = () => {
+    window.scrollTo(0, 0)
+      this.setState({
+          display: "paintings"
       })
   };
 
@@ -57,7 +65,7 @@ export default class MainContent extends React.Component {
               </div>
             </section>
 
-            <section>
+            <section onClick={this.paintings}>
             
               <div className="add-border pointer">
               <h2> Painting section</h2>
@@ -70,6 +78,10 @@ export default class MainContent extends React.Component {
 
     if (this.state.display === "jewerly"){
         return <Redirect to="/jewerly" />;
+    }
+
+    if (this.state.display === "paintings"){
+        return <Redirect to="/paintings" />;
     }
   }; //render
 }

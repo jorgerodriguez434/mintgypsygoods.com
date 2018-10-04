@@ -96,5 +96,7 @@ button {
   h1 {
 		font-size: 100px;
   }
-
+  button{
+		width: 200px;
+  }
 }

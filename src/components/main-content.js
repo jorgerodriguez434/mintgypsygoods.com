@@ -1,5 +1,6 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default class MainContent extends React.Component {
   /**
@@ -57,20 +58,18 @@ export default class MainContent extends React.Component {
               </p>
             </div>
 
-            <section onClick={this.jewerly}>
-           
-              <div className="add-border width-50 float-left pointer">
-              <h2> Jewerly section</h2>
-                
+          
+              <div className="add-border width-50 float-left pointer add-padding" onClick={this.jewerly}>
+              <Link className="link" to="/jewerly"> Jewerly Link</Link> 
               </div>
-            </section>
+         
 
-            <section onClick={this.paintings}>
-            
-              <div className="add-border pointer">
-              <h2> Painting section</h2>
+           
+              <div className="add-border pointer add-padding" onClick={this.paintings}>
+              <Link className="link" to="/paintings"> Paintings Link</Link> 
               </div>
-            </section>
+           
+            
           </section>
         </main>
       );

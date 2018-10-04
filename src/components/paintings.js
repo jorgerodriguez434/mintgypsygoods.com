@@ -10,7 +10,7 @@ export default class Paintings extends React.Component {
   }
 
   goBack = () => {
-    window.scrollTo(0, 0);
+ 
     this.setState({
       display: "home"
     });

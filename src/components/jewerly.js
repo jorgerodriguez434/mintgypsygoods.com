@@ -10,7 +10,6 @@ export default class Jewerly extends React.Component {
   }
 
   goBack = () => {
-    window.scrollTo(0, 0);
     this.setState({
       display: "home"
     });

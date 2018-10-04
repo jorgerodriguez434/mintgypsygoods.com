@@ -22,28 +22,3 @@ const App = () => {
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
-
-/**
- * function App() {
-  return (
-    <BrowserRouter>
-      <Provider store={store}>
-        <div>
-          <Switch>
-            <Route exact path="/" component={Form} />
-            <Route exact path="/clients" component={Clients} />
-            <Route exact path="/remove" component={SetRemove} />
-            <Route exact path="/update" component={SetUpdate} />
-            <Route exact path="/add-case" component={AddCase} />
-            <Route exact path="/cases" component={ShowCases} />
-          </Switch>
-        </div>
-      </Provider>
-    </BrowserRouter>
-  );
-}
- */

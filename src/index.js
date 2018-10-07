@@ -6,6 +6,7 @@ import Home from "./components/home";
 import Jewerly from "./components/jewerly";
 import Paintings from "./components/paintings";
 import Links from "./components/links"
+import Blog from "./components/blog";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route exact path="/" component={Home} />
         <Route exact path="/jewerly" component={Jewerly} />
         <Route exact path="/paintings" component={Paintings} />
+        <Route exact path="/blog" component={Blog} />
       </Switch>
     </div>
   </BrowserRouter>

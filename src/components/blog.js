@@ -1,7 +1,7 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
 
-export default class Paintings extends React.Component {
+export default class Blog extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -20,8 +20,8 @@ export default class Paintings extends React.Component {
     if (this.state.display === "landing") {
       return (
         <div className="content margin-top">
-         <img src="https://png.pngtree.com/thumb_back/fh260/back_pic/00/13/32/1756483d927a102.jpg"></img>
-          <h2> Paintings Page</h2>
+         <img src="https://pixelarity.com/items/demos/slate/light/images/pic07.jpg"></img>
+          <h2> Blog Page</h2>
           <div className="lorem-content">
             <p>
               {" "}

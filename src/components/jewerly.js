@@ -18,8 +18,9 @@ export default class Jewerly extends React.Component {
   render = () => {
     if (this.state.display === "landing") {
       return (
-        <div className="content margin-top">
-          <h1> Jewerly Page</h1>
+        <section className="content margin-top">
+        <img src="https://tappers.com/user_area/content_media/Pre%20Owned%20and%20Estate%20Banner%20Sm.jpg"></img>
+          <h2> Jewerly Page</h2>
           <div className="lorem-content">
             <p>
               {" "}
@@ -40,7 +41,7 @@ export default class Jewerly extends React.Component {
             </p>
           </div>
           <button onClick={this.goBack}> HOME </button>
-        </div>
+        </section>
       );
     }
 

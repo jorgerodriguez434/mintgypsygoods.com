@@ -8,6 +8,7 @@ export default class Links extends React.Component {
           <Link className="link" to="/">Home</Link>
             <Link className="link" to="/jewerly">Jewerly</Link>
             <Link className="link" to="/paintings">Paintings</Link>
+            <Link className="link" to="/blog">Blog</Link>
           </div>
         );
       }

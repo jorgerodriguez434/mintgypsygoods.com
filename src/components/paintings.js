@@ -19,7 +19,8 @@ export default class Paintings extends React.Component {
   render = () => {
     if (this.state.display === "landing") {
       return (
-        <div className="content margin-top">
+        <div className="align-content">
+        <section className="content margin-top">
          <img src="https://png.pngtree.com/thumb_back/fh260/back_pic/00/13/32/1756483d927a102.jpg" alt="banner"></img>
           <h2> Paintings Page</h2>
           <div className="lorem-content">
@@ -42,6 +43,7 @@ export default class Paintings extends React.Component {
             </p>
           </div>
           <button onClick={this.goBack}> HOME </button>
+        </section>
         </div>
       );
     }

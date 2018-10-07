@@ -46,9 +46,9 @@ h1{
 }
 main{
 	padding-left: 5%;
-  	padding-right: 5%;
-  	padding-bottom: 5%;
-  	padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 button {
 	border-radius: 5px;
@@ -150,7 +150,12 @@ button:hover {
 .main-background-color{
   background-color: #51BAA4;
 }
-
+.align-content{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
 /* Non-mobile */
 
 @media only screen and (min-width: 740px) {

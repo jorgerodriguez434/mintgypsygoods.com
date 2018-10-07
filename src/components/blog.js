@@ -19,7 +19,8 @@ export default class Blog extends React.Component {
   render = () => {
     if (this.state.display === "landing") {
       return (
-        <div className="content margin-top">
+        <div className="align-content">
+        <section className="content margin-top">
          <img src="https://pixelarity.com/items/demos/slate/light/images/pic07.jpg" alt="banner"></img>
           <h2> Blog Page</h2>
           <div className="lorem-content">
@@ -42,6 +43,7 @@ export default class Blog extends React.Component {
             </p>
           </div>
           <button onClick={this.goBack}> HOME </button>
+        </section>
         </div>
       );
     }

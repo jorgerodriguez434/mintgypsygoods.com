@@ -19,7 +19,7 @@ export default class Jewerly extends React.Component {
     if (this.state.display === "landing") {
       return (
         <section className="content margin-top">
-        <img src="https://tappers.com/user_area/content_media/Pre%20Owned%20and%20Estate%20Banner%20Sm.jpg"></img>
+        <img src="https://tappers.com/user_area/content_media/Pre%20Owned%20and%20Estate%20Banner%20Sm.jpg" alt="banner"></img>
           <h2> Jewerly Page</h2>
           <div className="lorem-content">
             <p>

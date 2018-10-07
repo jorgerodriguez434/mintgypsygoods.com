@@ -20,7 +20,7 @@ export default class Blog extends React.Component {
     if (this.state.display === "landing") {
       return (
         <div className="content margin-top">
-         <img src="https://pixelarity.com/items/demos/slate/light/images/pic07.jpg"></img>
+         <img src="https://pixelarity.com/items/demos/slate/light/images/pic07.jpg" alt="banner"></img>
           <h2> Blog Page</h2>
           <div className="lorem-content">
             <p>

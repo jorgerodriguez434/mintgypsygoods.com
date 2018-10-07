@@ -19,17 +19,17 @@ export default class MainContent extends React.Component {
   }
 
   jewerly = () => {
-    window.scrollTo(0, 0)
-      this.setState({
-          display: "jewerly"
-      })
+    window.scrollTo(0, 0);
+    this.setState({
+      display: "jewerly"
+    });
   };
 
   paintings = () => {
-    window.scrollTo(0, 0)
-      this.setState({
-          display: "paintings"
-      })
+    window.scrollTo(0, 0);
+    this.setState({
+      display: "paintings"
+    });
   };
 
   render = () => {
@@ -37,9 +37,13 @@ export default class MainContent extends React.Component {
       return (
         <main>
           <section className="content">
-          <img src="https://pixelarity.com/items/demos/future-imperfect/light/images/pic01.jpg"></img>
-            <h2> Welcome to the home page section!</h2>
-            <div className="lorem-content">
+            <img
+              src="https://pixelarity.com/items/demos/future-imperfect/light/images/pic01.jpg"
+              alt="banner"
+            />
+            <h2> About me </h2>
+            <section className="lorem-content">
+              <h3> Hi, my name is Aubrey </h3>
               <p>
                 {" "}
                 At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -58,33 +62,39 @@ export default class MainContent extends React.Component {
                 perferendis doloribus asperiores repellat.
               </p>
 
-               <div className="flex-container">
-        
-        <div className="add-border width-50 pointer add-padding _hover" onClick={this.jewerly}>
-        <Link className="link" to="/jewerly"> Jewerly</Link> 
-        </div>
-   
+              <div className="flex-container">
+                <div
+                  className="add-border width-50 pointer add-padding _hover main-background-color"
+                  onClick={this.jewerly}
+                >
+                  <Link className="link" to="/jewerly">
+                    {" "}
+                    Jewerly
+                  </Link>
+                </div>
 
-     
-        <div className="add-border pointer add-padding width-50 _hover" onClick={this.paintings}>
-        <Link className="link" to="/paintings"> Paintings</Link> 
-        </div>
-     
- </div>
-            </div>
-
-       
+                <div
+                  className="add-border pointer add-padding width-50 _hover main-background-color"
+                  onClick={this.paintings}
+                >
+                  <Link className="link" to="/paintings">
+                    {" "}
+                    Paintings
+                  </Link>
+                </div>
+              </div>
+            </section>
           </section>
         </main>
       );
     }
 
-    if (this.state.display === "jewerly"){
-        return <Redirect to="/jewerly" />;
+    if (this.state.display === "jewerly") {
+      return <Redirect to="/jewerly" />;
     }
 
-    if (this.state.display === "paintings"){
-        return <Redirect to="/paintings" />;
+    if (this.state.display === "paintings") {
+      return <Redirect to="/paintings" />;
     }
   }; //render
 }

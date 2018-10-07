@@ -49,16 +49,20 @@ button {
 	border-radius: 5px;
 	cursor: pointer;
 	font-size: 17px;
-	color: white;
+	color: black;
 	font-family: 'Titillium Web', sans-serif;
-	background-color: grey;
+	background-color: #51BAA4;
 	font-size: 17px;
 	height: 50px;
 	width: 90%;
 	display: block;
 	margin: auto;
 	margin-bottom: 10px;
-	margin-top: 20px;
+  margin-top: 20px;
+  border: 2px solid #51BAA4;
+}
+button:hover {
+	background-color: white;
 }
 .center-div
 {
@@ -133,6 +137,9 @@ button {
 }
 .margin-top{
   margin-top: 63px;
+}
+._hover:hover{
+  background-color: #51BAA4;
 }
 
 /* Non-mobile */

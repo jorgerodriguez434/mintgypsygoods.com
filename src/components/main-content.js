@@ -60,13 +60,13 @@ export default class MainContent extends React.Component {
 
                <div className="flex-container">
         
-        <div className="add-border width-50 pointer add-padding" onClick={this.jewerly}>
+        <div className="add-border width-50 pointer add-padding _hover" onClick={this.jewerly}>
         <Link className="link" to="/jewerly"> Jewerly</Link> 
         </div>
    
 
      
-        <div className="add-border pointer add-padding width-50" onClick={this.paintings}>
+        <div className="add-border pointer add-padding width-50 _hover" onClick={this.paintings}>
         <Link className="link" to="/paintings"> Paintings</Link> 
         </div>
      

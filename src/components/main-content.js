@@ -37,6 +37,7 @@ export default class MainContent extends React.Component {
       return (
         <main>
           <section className="content">
+          <img src="https://pixelarity.com/items/demos/future-imperfect/light/images/pic01.jpg"></img>
             <h2> Welcome to the home page section!</h2>
             <div className="lorem-content">
               <p>
@@ -56,21 +57,23 @@ export default class MainContent extends React.Component {
                 ut aut reiciendis voluptatibus maiores alias consequatur aut
                 perferendis doloribus asperiores repellat.
               </p>
+
+               <div className="flex-container">
+        
+        <div className="add-border width-50 pointer add-padding" onClick={this.jewerly}>
+        <Link className="link" to="/jewerly"> Jewerly</Link> 
+        </div>
+   
+
+     
+        <div className="add-border pointer add-padding width-50" onClick={this.paintings}>
+        <Link className="link" to="/paintings"> Paintings</Link> 
+        </div>
+     
+ </div>
             </div>
 
-        <div className="flex-container">
-        
-              <div className="add-border width-50 pointer add-padding" onClick={this.jewerly}>
-              <Link className="link" to="/jewerly"> Jewerly</Link> 
-              </div>
-         
-
-           
-              <div className="add-border pointer add-padding width-50" onClick={this.paintings}>
-              <Link className="link" to="/paintings"> Paintings</Link> 
-              </div>
-           
-       </div>
+       
           </section>
         </main>
       );

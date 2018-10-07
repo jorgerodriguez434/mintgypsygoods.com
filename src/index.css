@@ -1,3 +1,5 @@
+/* https://wallpaperlayer.com/img/2015/9/blue-grunge-wallpaper-2127-2283-hd-wallpapers.jpg */
+
 * {
 	box-sizing: border-box;
 }
@@ -6,7 +8,7 @@ body {
 	/* margin-left: 30px;
 	margin-right: 30px; */
   text-align: center;
-  background-image: url('https://wallpaperlayer.com/img/2015/9/blue-grunge-wallpaper-2127-2283-hd-wallpapers.jpg');
+  background-image: url('https://templated.co/items/demos/swarming/images/pic01.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 90px;
@@ -112,6 +114,9 @@ button {
   display: block;
   overflow: hidden;
 
+}
+.link:hover {
+	background-color: white;
 }
 .red-background{
   background-color: red;

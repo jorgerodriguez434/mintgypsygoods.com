@@ -35,6 +35,8 @@ header {
   margin-bottom: 20px;
   padding-top: 300px;
   margin-top: 63px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 h1{
   font-family: 'Pinyon Script', cursive;
@@ -122,6 +124,7 @@ button:hover {
   top: 0;
   display: block;
   overflow: hidden;
+  margin-left: -10px;
 
 }
 .link:hover {
@@ -150,7 +153,6 @@ button:hover {
 
 @media only screen and (min-width: 740px) {
   header {
-    height: 850px;
     padding-top: 20px;
   }
   h1 {

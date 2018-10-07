@@ -19,7 +19,7 @@ export default class Paintings extends React.Component {
   render = () => {
     if (this.state.display === "landing") {
       return (
-        <div className="content">
+        <div className="content margin-top">
           <h1> Paintings Page</h1>
           <div className="lorem-content">
             <p>
@@ -40,7 +40,7 @@ export default class Paintings extends React.Component {
               asperiores repellat.
             </p>
           </div>
-          <button onClick={this.goBack}> GO BACK </button>
+          <button onClick={this.goBack}> HOME </button>
         </div>
       );
     }

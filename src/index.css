@@ -11,6 +11,7 @@ body {
   background-size: cover;
   padding-bottom: 90px;
   height: 1500px;
+  opacity: .8;
 }
 a {
 	text-decoration: none;
@@ -22,10 +23,11 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 60px;
-	opacity: .9;
+	
 	height: 200px;
   margin-bottom: 20px;
   padding-top: 20px;
+  margin-top: 63px;
 }
 h1{
   font-family: 'Pinyon Script', cursive;
@@ -83,6 +85,9 @@ button {
  .float-left{
    float: left;
  }
+ .float-right{
+  float: right;
+}
  .width-50{
    width: 50%;
  }
@@ -92,9 +97,34 @@ button {
 .link {
   font-size: 20px;
   color: black;
+  padding: 10px;
 }
 .add-padding{
   padding: 20px 20px 20px 20px;
+}
+.link-group {
+	background-color: #51BAA4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: block;
+  overflow: hidden;
+
+}
+.red-background{
+  background-color: red;
+}
+.inline-display{
+  display: inline-block;
+}
+.flex-container{
+  display: flex;
+  border: 2px solid blue;
+}
+.margin-top{
+  margin-top: 63px;
 }
 
 /* Non-mobile */

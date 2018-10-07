@@ -58,18 +58,19 @@ export default class MainContent extends React.Component {
               </p>
             </div>
 
-          
-              <div className="add-border width-50 float-left pointer add-padding" onClick={this.jewerly}>
-              <Link className="link" to="/jewerly"> Jewerly Link</Link> 
+        <div className="flex-container">
+        
+              <div className="add-border width-50 pointer add-padding" onClick={this.jewerly}>
+              <Link className="link" to="/jewerly"> Jewerly</Link> 
               </div>
          
 
            
-              <div className="add-border pointer add-padding" onClick={this.paintings}>
-              <Link className="link" to="/paintings"> Paintings Link</Link> 
+              <div className="add-border pointer add-padding width-50" onClick={this.paintings}>
+              <Link className="link" to="/paintings"> Paintings</Link> 
               </div>
            
-            
+       </div>
           </section>
         </main>
       );

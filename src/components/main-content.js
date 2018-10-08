@@ -44,6 +44,7 @@ export default class MainContent extends React.Component {
             <h2> About me </h2>
             <section className="lorem-content">
               <h3> Hi, my name is Aubrey </h3>
+              <hr/>
               <p>
                 {" "}
                 At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -63,6 +64,7 @@ export default class MainContent extends React.Component {
               </p>
 
               <div className="flex-container">
+
                 <div
                   className="add-border width-50 pointer add-padding _hover main-background-color"
                   onClick={this.jewerly}
@@ -82,6 +84,7 @@ export default class MainContent extends React.Component {
                     Paintings
                   </Link>
                 </div>
+                
               </div>
             </section>
           </section>

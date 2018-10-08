@@ -24,6 +24,7 @@ export default class Blog extends React.Component {
          <img src="https://pixelarity.com/items/demos/slate/light/images/pic07.jpg" alt="banner"></img>
           <h2> Blog Page</h2>
           <div className="lorem-content">
+          <hr/>
             <p>
               {" "}
               At vero eos et accusamus et iusto odio dignissimos ducimus qui

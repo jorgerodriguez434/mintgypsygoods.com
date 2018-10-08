@@ -24,6 +24,7 @@ export default class Paintings extends React.Component {
          <img src="https://png.pngtree.com/thumb_back/fh260/back_pic/00/13/32/1756483d927a102.jpg" alt="banner"></img>
           <h2> Paintings Page</h2>
           <div className="lorem-content">
+          <hr/>
             <p>
               {" "}
               At vero eos et accusamus et iusto odio dignissimos ducimus qui

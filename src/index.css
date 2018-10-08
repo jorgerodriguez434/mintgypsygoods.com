@@ -17,7 +17,7 @@ body {
   /* background-size: cover; */
   padding-bottom: 90px;
   /* height: 2000px; */
-  opacity: .9;
+  opacity: .6;
 }
 /* https://pixelarity.com/items/demos/stellar/cyan/ */
 a {
@@ -155,6 +155,24 @@ button:hover {
     padding-right: 5%;
     padding-bottom: 5%;
     padding-top: 5%;
+}
+.circle{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  text-align: center; 
+  vertical-align: middle;
+  line-height: 250px;
+}
+.margin-right{
+  margin-right: 30px;
+}
+.margin-left{
+  margin-left: 30px;
+}
+.circles{
+  display: flex;
+  margin-left: 10%;
 }
 /* Non-mobile */
 

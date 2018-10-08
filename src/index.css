@@ -139,7 +139,7 @@ button:hover {
   display: inline-block;
 }
 .flex-container{
-  display: flex;
+  display: block;
 }
 .margin-top{
   margin-top: 63px;
@@ -163,6 +163,9 @@ button:hover {
   text-align: center; 
   vertical-align: middle;
   line-height: 250px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .margin-right{
   margin-right: 30px;
@@ -170,9 +173,15 @@ button:hover {
 .margin-left{
   margin-left: 30px;
 }
-.circles{
-  display: flex;
-  margin-left: 10%;
+.margin-auto{
+  margin: auto;
+}
+.painting{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
 }
 /* Non-mobile */
 
@@ -186,4 +195,14 @@ button:hover {
   button{
 		width: 200px;
   }
+  .flex-container{
+    display: flex;
+    text-align: center;
+  }
+  .painting{
+    /* margin: 0; */
+    margin-right: 5px;
+    width: 33.33%;
+  }
+ 
 }

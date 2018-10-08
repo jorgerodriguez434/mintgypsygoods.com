@@ -66,7 +66,7 @@ export default class MainContent extends React.Component {
               <div className="flex-container">
 
                 <div
-                  className="add-border width-50 pointer add-padding _hover main-background-color"
+                  className="add-border width-50 pointer add-padding _hover main-background-color circle"
                   onClick={this.jewerly}
                 >
                   <Link className="link" to="/jewerly">
@@ -76,7 +76,7 @@ export default class MainContent extends React.Component {
                 </div>
 
                 <div
-                  className="add-border pointer add-padding width-50 _hover main-background-color"
+                  className="add-border pointer add-padding width-50 _hover main-background-color circle"
                   onClick={this.paintings}
                 >
                   <Link className="link" to="/paintings">

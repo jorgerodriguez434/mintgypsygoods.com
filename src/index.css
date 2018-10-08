@@ -181,6 +181,7 @@ button:hover {
   height: 300px;
   margin: auto;
   margin-bottom: 20px;
+  margin-top: 20px;
   display: block;
 }
 /* Non-mobile */
@@ -197,12 +198,12 @@ button:hover {
   }
   .flex-container{
     display: flex;
-    text-align: center;
+    margin: auto;
   }
   .painting{
-    /* margin: 0; */
-    margin-right: 5px;
+    margin: 5px;
     width: 33.33%;
+    overflow: hidden;
   }
  
 }

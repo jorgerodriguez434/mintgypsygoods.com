@@ -43,7 +43,7 @@ export default class Paintings extends React.Component {
               asperiores repellat.
             </p>
 
-             <div className="flex-container add-border"> 
+             <div className="flex-container"> 
               <img className="painting" src="https://images-na.ssl-images-amazon.com/images/I/51OY%2B0T0xBL._SX425_.jpg" alt="starry-night"></img>
               <img className="painting" src="https://5.imimg.com/data5/PP/JQ/MY-42593726/vincent-van-gogh-paintings-on-canvas-500x500.jpg" alt="van gough"></img>
               <img className="painting" src="https://www.christies.com/img/LotImages/2017/NYR/2017_NYR_15004_0028A_000(vincent_van_gogh_laboureur_dans_un_champ).jpg" alt="van gough"></img>

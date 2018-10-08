@@ -44,7 +44,7 @@ export default class MainContent extends React.Component {
             <h2> About me </h2>
             <section className="lorem-content">
               <h3> Hi, my name is Aubrey </h3>
-              <hr/>
+              <hr />
               <p>
                 {" "}
                 At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -62,31 +62,66 @@ export default class MainContent extends React.Component {
                 ut aut reiciendis voluptatibus maiores alias consequatur aut
                 perferendis doloribus asperiores repellat.
               </p>
-
-              <div className="flex-container">
-
-                <div
-                  className="add-border width-50 pointer add-padding _hover main-background-color circle"
-                  onClick={this.jewerly}
-                >
-                  <Link className="link" to="/jewerly">
-                    {" "}
-                    Jewerly
-                  </Link>
-                </div>
-
-                <div
-                  className="add-border pointer add-padding width-50 _hover main-background-color circle"
-                  onClick={this.paintings}
-                >
-                  <Link className="link" to="/paintings">
-                    {" "}
-                    Paintings
-                  </Link>
-                </div>
-                
-              </div>
             </section>
+          </section>
+
+          <section className="content">
+            <div className="jewerly-container lorem-content">
+              <div className="jewerly _hover circle" onClick={this.jewerly}>
+                <Link className="link" to="/jewerly">
+                  {" "}
+                  Jewerly
+                </Link>
+              </div>
+
+              <p>
+                {" "}
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque corrupti quos
+                dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident, similique sunt in culpa qui officia deserunt
+                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
+                rerum facilis est et expedita distinctio. Nam libero tempore,
+                cum soluta nobis est eligendi optio cumque nihil impedit quo
+                minus id quod maxime placeat facere possimus, omnis voluptas
+                assumenda est, omnis dolor repellendus. Temporibus autem
+                quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+                eveniet ut et voluptates repudiandae sint et molestiae non
+                recusandae. Itaque earum rerum hic tenetur a sapiente delectus,
+                ut aut reiciendis voluptatibus maiores alias consequatur aut
+                perferendis doloribus asperiores repellat.
+              </p>
+            </div>
+            <div className="home-painting-container lorem-content">
+            <hr/>
+              <div
+                className="home-painting _hover circle"
+                onClick={this.paintings}
+              >
+                <Link className="link" to="/paintings">
+                  {" "}
+                  Paintings
+                </Link>
+              </div>
+
+              <p>
+                {" "}
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque corrupti quos
+                dolores et quas molestias excepturi sint occaecati cupiditate
+                non provident, similique sunt in culpa qui officia deserunt
+                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
+                rerum facilis est et expedita distinctio. Nam libero tempore,
+                cum soluta nobis est eligendi optio cumque nihil impedit quo
+                minus id quod maxime placeat facere possimus, omnis voluptas
+                assumenda est, omnis dolor repellendus. Temporibus autem
+                quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+                eveniet ut et voluptates repudiandae sint et molestiae non
+                recusandae. Itaque earum rerum hic tenetur a sapiente delectus,
+                ut aut reiciendis voluptatibus maiores alias consequatur aut
+                perferendis doloribus asperiores repellat.
+              </p>
+            </div>
           </section>
         </main>
       );

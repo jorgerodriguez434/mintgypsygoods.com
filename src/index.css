@@ -176,6 +176,9 @@ button:hover {
 .margin-auto{
   margin: auto;
 }
+.width-100{
+  width: 100%;
+}
 .painting{
   width: 300px;
   height: 300px;
@@ -184,6 +187,36 @@ button:hover {
   margin-top: 20px;
   display: block;
 }
+.jewerly{
+  
+  cursor: pointer;
+  padding: 20px 20px 20px 20px;
+  background-color: #51BAA4;
+  /* width: 200px; */
+
+}
+.jewerly-container{
+  width: 100%;
+}
+.home-painting{
+ 
+  cursor: pointer;
+  padding: 20px 20px 20px 20px;
+  background-color: #51BAA4;
+  /* width: 200px; */
+}
+.home-painting-container{
+ 
+  width: 100%;
+}
+.my-div {
+  float: right;
+  height:200px;
+  width: 200px;
+  border: 2px solid black;
+  
+}
+
 /* Non-mobile */
 
 @media only screen and (min-width: 740px) {
@@ -205,5 +238,18 @@ button:hover {
     width: 33.33%;
     overflow: hidden;
   }
+  .jewerly{
+    float: right;
+  }
+  .jewerly-container{
+    height: 400px;
+  }
+  .home-painting{
+    float: left;
+  }
+  .home-painting-container{
+    height: 400px;
+  }
+
  
 }

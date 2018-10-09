@@ -21,7 +21,7 @@ export default class Blog extends React.Component {
       return (
         <div className="align-content">
         <section className="content margin-top">
-         <img src="https://pixelarity.com/items/demos/slate/light/images/pic07.jpg" alt="banner"></img>
+         <img src="https://envisionitagency.com/uploads/2016/06/blog-header-copy-writing-evolution-750x350.jpg" alt="banner"></img>
           <h2> Blog Page</h2>
           <div className="lorem-content">
           <hr/>

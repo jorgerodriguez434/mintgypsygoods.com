@@ -36,15 +36,21 @@ export default class MainContent extends React.Component {
     if (this.state.display === "landing") {
       return (
         <main>
-          <section className="content">
-            <img
+          <section className="content bio-container">
+            {/* <img
               src="https://pixelarity.com/items/demos/future-imperfect/light/images/pic01.jpg"
               alt="banner"
-            />
+            /> */}
+            
+            <div className="aubrey"> 
+        <img
+          src="https://preview.ibb.co/hoaJF0/aubrey.jpg"
+          alt="me"
+          className="circle"
+        />
+      </div>
+            <section className="lorem-content bio">
             <h2> About me </h2>
-            <section className="lorem-content">
-              <h3> Hi, my name is Aubrey </h3>
-              <hr />
               <p>
                 {" "}
                 At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -62,7 +68,9 @@ export default class MainContent extends React.Component {
                 ut aut reiciendis voluptatibus maiores alias consequatur aut
                 perferendis doloribus asperiores repellat.
               </p>
+              
             </section>
+           
           </section>
 
           <section className="content">

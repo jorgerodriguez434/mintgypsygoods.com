@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/home";
-import Jewerly from "./components/jewerly";
+import Jewerly from "./components/jewelry";
 import Paintings from "./components/paintings";
 import Links from "./components/links"
 import Blog from "./components/blog";
